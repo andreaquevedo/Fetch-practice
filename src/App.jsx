@@ -8,12 +8,12 @@ export const App = () => {
 	}
 
 	if (error !== null) {
-		return <h6>Oops, something goes wrong</h6>;
+		return <h6>Oops, something went wrong</h6>;
 	}
 
 	return (
 		<>
-			<h1>Hola mundo</h1>
+			<h1>Hello world</h1>
 
 			{dataFetch &&
 				dataFetch.map((item) => (
